@@ -1,16 +1,17 @@
 package com.remindly.api.integrations.llm.dto;
 
+import java.util.Map;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GenerateResult {
-    private MessageDto message;
-    private boolean isToolCall;
-    private ToolCallDto toolCallDto;
+@Builder
+public class ToolCallDto {
+    private String toolName;
+    private Map<String, Object> toolArguments;
 }

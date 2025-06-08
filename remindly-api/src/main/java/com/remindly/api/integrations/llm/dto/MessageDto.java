@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GenerateResult {
-    private MessageDto message;
-    private boolean isToolCall;
-    private ToolCallDto toolCallDto;
+public class MessageDto {
+    private String role;
+    private String content;
 }

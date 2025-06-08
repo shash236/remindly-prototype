@@ -6,11 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GenerateResult {
-    private MessageDto message;
-    private boolean isToolCall;
-    private ToolCallDto toolCallDto;
+@Builder
+public class ToolDto {
+    private String name;
+    private String description;
+    private ToolParameterDto parameters;
 }
