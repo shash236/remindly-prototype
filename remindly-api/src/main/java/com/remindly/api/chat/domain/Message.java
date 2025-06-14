@@ -1,7 +1,5 @@
 package com.remindly.api.chat.domain;
 
-import com.remindly.api.integrations.llm.dto.MessageDto;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

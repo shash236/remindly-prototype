@@ -6,4 +6,5 @@ import com.remindly.api.integrations.llm.dto.MessageDto;
 
 public interface ChatReadService {
     List<MessageDto> getAllMessages(Long chatId);
+    List<MessageDto> getAllMessagesOptimized(Long chatId); // improved method for optimized retrieval
 }
