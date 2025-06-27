@@ -1,4 +1,4 @@
-package com.remindly.api.integrations.llm.dto;
+package com.remindly.api.integrations.llm.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ToolPropertyDto {
-    private String type;
+public class ToolDto {
+    private String name;
     private String description;
+    private ToolParameterDto parameters;
 }

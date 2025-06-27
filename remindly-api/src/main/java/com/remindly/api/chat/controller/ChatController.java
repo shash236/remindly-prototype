@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.remindly.api.chat.dto.request.ChatRequest;
-import com.remindly.api.chat.dto.request.InitiateChatRequest;
-import com.remindly.api.chat.dto.response.ChatResponse;
-import com.remindly.api.chat.dto.response.InitiateChatResponse;
+import com.remindly.api.chat.data.request.ChatRequest;
+import com.remindly.api.chat.data.request.InitiateChatRequest;
+import com.remindly.api.chat.data.response.ChatResponse;
+import com.remindly.api.chat.data.response.InitiateChatResponse;
 import com.remindly.api.chat.service.ChatService;
-import com.remindly.api.chat.service.dto.ChatCommand;
-import com.remindly.api.chat.service.dto.ChatResult;
-import com.remindly.api.chat.service.dto.InitiateChatCommand;
-import com.remindly.api.chat.service.dto.InitiateChatResult;
+import com.remindly.api.chat.service.data.ChatCommand;
+import com.remindly.api.chat.service.data.ChatResult;
+import com.remindly.api.chat.service.data.InitiateChatCommand;
+import com.remindly.api.chat.service.data.InitiateChatResult;
 
 import lombok.RequiredArgsConstructor;
 

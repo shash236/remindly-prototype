@@ -1,4 +1,4 @@
-package com.remindly.api.chat.dto.response;
+package com.remindly.api.chat.data.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

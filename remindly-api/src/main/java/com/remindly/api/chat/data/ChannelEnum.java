@@ -1,4 +1,4 @@
-package com.remindly.api.chat.constants;
+package com.remindly.api.chat.data;
 
 public enum ChannelEnum {
     WHATSAPP,

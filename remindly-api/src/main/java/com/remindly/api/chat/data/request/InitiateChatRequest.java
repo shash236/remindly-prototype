@@ -1,4 +1,4 @@
-package com.remindly.api.chat.dto.request;
+package com.remindly.api.chat.data.request;
 
 import lombok.Data;
 

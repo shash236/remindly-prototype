@@ -1,4 +1,4 @@
-package com.remindly.api.chat.dto.request;
+package com.remindly.api.chat.data.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChatRequest {
+public class ChatResponse {
+    private Long messageId;
     private String message;
 }

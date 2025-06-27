@@ -3,9 +3,9 @@ package com.remindly.api.lists.data;
 import java.util.List;
 import java.util.Map;
 
-import com.remindly.api.integrations.llm.dto.ToolDto;
-import com.remindly.api.integrations.llm.dto.ToolParameterDto;
-import com.remindly.api.integrations.llm.dto.ToolPropertyDto;
+import com.remindly.api.integrations.llm.data.ToolDto;
+import com.remindly.api.integrations.llm.data.ToolParameterDto;
+import com.remindly.api.integrations.llm.data.ToolPropertyDto;
 
 public enum ListToolEnum {
     

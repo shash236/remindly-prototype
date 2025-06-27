@@ -1,4 +1,4 @@
-package com.remindly.api.integrations.llm.dto;
+package com.remindly.api.integrations.llm.data;
 
 import java.util.List;
 import java.util.Map;

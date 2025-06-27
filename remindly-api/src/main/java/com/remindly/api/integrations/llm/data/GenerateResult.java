@@ -1,4 +1,4 @@
-package com.remindly.api.integrations.llm.dto;
+package com.remindly.api.integrations.llm.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,5 +12,5 @@ import lombok.NoArgsConstructor;
 public class GenerateResult {
     private MessageDto message;
     private boolean isToolCall;
-    private ToolCallDto toolCallDto;
+    private ToolCallRequest toolCallRequest;
 }

@@ -1,8 +1,10 @@
 package com.remindly.api.tool.service;
 
-import com.remindly.api.integrations.llm.dto.ToolCallDto;
+import java.util.Map;
+
+import com.remindly.api.integrations.llm.data.ToolCallRequest;
 
 public interface ToolHandler {
    String getToolKey();
-   String callTool(ToolCallDto toolCall);
+   Map<String,Object> callTool(ToolCallRequest toolCallRequest);
 }

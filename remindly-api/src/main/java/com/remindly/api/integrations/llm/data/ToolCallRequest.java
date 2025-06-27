@@ -1,4 +1,4 @@
-package com.remindly.api.integrations.llm.dto;
+package com.remindly.api.integrations.llm.data;
 
 import java.util.Map;
 
@@ -11,7 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ToolCallDto {
+public class ToolCallRequest {
     private String toolName;
+    private String toolCallId;
     private Map<String, Object> toolArguments;
 }

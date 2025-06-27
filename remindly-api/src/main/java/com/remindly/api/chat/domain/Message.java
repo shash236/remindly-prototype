@@ -1,5 +1,7 @@
 package com.remindly.api.chat.domain;
 
+import java.util.Map;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,8 +21,9 @@ public class Message {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long chatId;
-    private String content;
+    private Map<String, Object> content;
     private String role;
     private Long createdAt;
     private boolean isDisplayable;
+    private String contentType;
 }

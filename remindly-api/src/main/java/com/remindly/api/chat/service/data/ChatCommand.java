@@ -1,4 +1,4 @@
-package com.remindly.api.chat.service.dto;
+package com.remindly.api.chat.service.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
